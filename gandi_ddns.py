@@ -84,6 +84,7 @@ def update_record(url, headers, payload):
 
 
 def main():
+    print('hello')
     path = config_file
     if not path.startswith('/'):
         path = os.path.join(SCRIPT_DIR, path)
